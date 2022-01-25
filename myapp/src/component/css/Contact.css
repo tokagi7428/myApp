@@ -1,9 +1,10 @@
-h1 {
+#contact h1 {
+  font-size: 2rem;
   margin-top: 20px;
   color: white;
 }
 
-p {
+#contact p {
   color: white;
 }
 

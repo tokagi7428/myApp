@@ -6,3 +6,30 @@
   transition: all 0.5s ease-in-out;
   background-color: aqua;
 }
+
+#portfolio h1 {
+  font-size: 2rem;
+}
+
+#portfolio h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+#portfolio p {
+  margin-top: 1rem;
+}
+
+#portfolio p,
+#portfolio h3,
+#portfolio h1 {
+  color: black;
+}
+
+.education p {
+  text-align: left;
+}
+
+img {
+  margin: 10px;
+}
