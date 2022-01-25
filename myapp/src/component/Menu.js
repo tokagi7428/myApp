@@ -1,16 +1,30 @@
+import Contact from "./Contact";
+import Pofolio from "./Pofolio";
 import "./css/Menu.css";
 function Menu() {
   return (
-    <div className="menu-bar">
-      <div>
-        <h1>Menu</h1>
+    <nav>
+      <div className="menu">
+        <div className="menu-bar">
+          <div>
+            <h1>Menu</h1>
+          </div>
+          <ul>
+            <a href="home">
+              <li>Home</li>
+            </a>
+            <a href="#portfolio">
+              <li>Portfolio</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
       </div>
-      <ul>
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>contact</li>
-      </ul>
-    </div>
+      <Pofolio />
+      <Contact />
+    </nav>
   );
 }
 

@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .menu-bar {
   display: flex;
   justify-content: space-around;
@@ -11,16 +18,26 @@
   color: white;
   background-color: black;
   padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-bar h1 {
+  margin-bottom: 20px;
 }
 
 .menu-bar ul {
   display: flex;
 }
-
+.menu-bar ul a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
 .menu-bar ul li {
   list-style: none;
   margin-left: 3rem;
   font-size: 20px;
+  transition: all 0.5s ease-in-out;
 }
 
 .menu-bar ul li:hover {
